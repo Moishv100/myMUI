@@ -4,23 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-8 font-sans">
-        <h1 className="text-4xl font-bold text-primary-900 mb-8">
-          My MUI Design System
-        </h1>
-        <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-xl shadow-lg transition-all">
-          SaaS Button Works!
-        </button>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="min-h-screen bg-gradient-to-br from-primary-500 to-blue-700 p-12 text-white font-sans">
+      <h1 className="text-5xl font-bold mb-8">Design System Ready!</h1>
+      <p>Storybook + Tailwind v3</p>
+    </div>
+  );
 }
+
 
 export default App
